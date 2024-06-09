@@ -22,11 +22,11 @@ alias bcr="bcr.sh"
 ```
 
 ## Usage
-Chiffrer
+Lancer le chiffrement d'un fichier
 ```bash
 bc
 ```
-Déchiffrer
+Lancer le déchiffrement d'un fichier
 ```
 bcr
 ```
