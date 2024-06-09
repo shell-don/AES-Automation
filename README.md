@@ -1,6 +1,6 @@
 # AES Automation
 
-AES_automation permet de chiffrer et déchiffrer n fois un fichier de manière simple et intéractive en local.
+AES_automation permet de chiffrer et déchiffrer n fois un fichier en AES-256 de manière simple et intéractive en local.
 
 ## Installation
 
