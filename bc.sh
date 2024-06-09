@@ -1,5 +1,5 @@
 #!/bin/bash
-#!/bin/zsh
+#!/bin/zsh 
 echo "Quel est le chemin du fichier ?" 
 read path
 echo "Combien de fois voulez-vous le chiffrer ?"
