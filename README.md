@@ -1,17 +1,32 @@
-# AES_Automation
-Outil en ligne de commande pour automatiser le chiffrement/déchiffrement de fichier en AES 256. Écrit en Bash. Fonctionne avec Zsh.
+# AES Automation
 
-Utilité : 
+AES_automation permet de chiffrer et déchiffrer n fois un fichier de manière simple et intéractive en local.
 
-Chiffrer autant de fois que l'on veut un fichier. Pourquoi faire simple quand on peut faire compliqué.
+## Installation
 
-Prérequis :
-  
-  Aescrypt-console (Mac M1/M2 ou autre versions suivant le device)
-  
-Optimisation possible avec un alias dans le fichier ~/.aliasrc :
+Installez [Aescrypt](https://www.aescrypt.com/download/) en mode console pour votre machine. 
 
-  alias bc="bc.sh"
-  alias bcr="bcr.sh"
+Ajoutez le chemin du binaire aescrypt au path.
+```bash
+export PATH="$PATH:chemin"
+```
+Enfin copiez les fichiers bc.sh et bcr.sh au même endroit et rendez-les éxécutables.
+```bash
+chmod +x bc.sh ; chmod +x bcr.sh
+```
+### Optimisations
+Ajoutez deux alias dans ~/.aliasrc
+```zsh
+alias bc="bc.sh"
+alias bcr="bcr.sh"
+```
 
-Point utile, lors du chiffrement le dernier mot de passe utilisé devient le premier mot de passe lors du déchiffrement. 
+## Usage
+Chiffrer
+```bash
+bc
+```
+Déchiffrer
+```
+bcr
+```
