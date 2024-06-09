@@ -1,2 +1,2 @@
 # AES_Automation
-Pour automatiser le chiffrement/déchiffrement AES 256
+Outil pour automatiser le chiffrement/déchiffrement de fichier en AES 256.
