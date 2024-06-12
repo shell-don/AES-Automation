@@ -30,3 +30,6 @@ Lancer le déchiffrement d'un fichier
 ```
 bcr
 ```
+### Coming Soon
+
+Automatisation complète du processus de chiffrement/déchiffrement
