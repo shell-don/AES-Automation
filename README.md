@@ -27,6 +27,8 @@ Enfin exportez le chemin du dossier dans le PATH pour pouvoir les éxécuter.
 export PATH=$PATH:~/desktop/AES_Automation
 ```
 ### Optimisations
+(optionnel)
+
 Ajoutez deux alias dans ~/.aliasrc
 ```zsh
 alias bc="bc.sh"
