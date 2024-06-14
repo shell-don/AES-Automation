@@ -50,3 +50,5 @@ bcr.sh
 Résolution "Error: Message has been altered or password is incorrect"
 Pour le déchiffrement l'erreur peut venir de l'adresse HMAC qu'aescrypt fourni automatiquement pendant le chiffrement. Le mot de passe est le bon (vérifié à la main). Cependant même en faisant des tests en modifiant le code source d'aescrypt, soit le message d'erreur perssiste soit le fichier n'est pas déchiffré (fichier vide). 
 Si vous avez une idée pour la résoudre contactez moi.
+
+En attendant cet outil peut être utilisé pour supprimer de manière sécuriser un fichier. 
