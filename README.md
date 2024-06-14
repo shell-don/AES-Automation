@@ -4,6 +4,7 @@ AES_automation permet de chiffrer et déchiffrer n fois un fichier en AES-256 de
 ## Installation
 
 Installez [Aescrypt](https://www.aescrypt.com/download/) en mode console pour votre machine. 
+
 Installez Keepassxc avec votre gestionnaire de paquet préféré.
 ```zsh
 brew install keepassxc
@@ -22,7 +23,7 @@ Copiez les fichiers bc.sh et bcr.sh (dossier Bêta) au même endroit et rendez-l
 chmod +x  ~/desktop/AES_Automation/bc.sh ; chmod +x  ~/desktop/AES_Automation/bcr.sh
 ```
 Enfin exportez le chemin du dossier dans le PATH pour pouvoir les éxécuter.
-```
+```bash
 export PATH=$PATH:~/desktop/AES_Automation
 ```
 ### Optimisations
@@ -38,7 +39,7 @@ Lancer le chiffrement d'un fichier :
 . bc.sh
 ```
 Lancer le déchiffrement d'un fichier :
-```
+```zsh
 bcr.sh
 ```
 ## Coming Soon
