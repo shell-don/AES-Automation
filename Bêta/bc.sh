@@ -6,7 +6,7 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/dev:/Applications/KeePassXC.app/contents/mac
 # Variable à modifier #
 #######################
 
-export PATH=$PATH:<chemin vers le dossier contenant aescrypt>
+export PATH=$PATH:~/desktop/AES_Automation
 
 ########
 # code #
