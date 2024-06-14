@@ -19,7 +19,7 @@ Copiez aescrypt (console-M1/M2) dans le dossier, commande sous cette forme :
 ```bash
 cp ~/Downloads/aescrypt_mac_v316_m1m2/usr/local/bin/aescrypt ~/desktop/AES_Automation 
 ```
-Copiez les fichiers bc.sh et bcr.sh (dossier Bêta) au même endroit et rendez-les éxécutables.
+Téléchargez le ZIP de ce github puis éxécutez : 
 ```bash
 cp ~/Downloads/AES_Automation-main/Bêta/bc.sh ~/desktop/AES_Automation ; cp ~/Downloads/AES_Automation-main/Bêta/bcr.sh ~/desktop/AES_Automation ; chmod +x  ~/desktop/AES_Automation/bc.sh ; chmod +x  ~/desktop/AES_Automation/bcr.sh
 ```
@@ -27,6 +27,7 @@ Enfin exportez le chemin du dossier dans le PATH pour pouvoir les éxécuter.
 ```bash
 export PATH=$PATH:~/desktop/AES_Automation
 ```
+Supprimer les fichiers télécharger, AES_Automation possède le nécessaire.
 ### Optimisations
 (optionnel)
 
