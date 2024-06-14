@@ -17,7 +17,7 @@ until [ $i -gt $n ]
   do
     # génère un mot de passe et le stock dans une matrice.
     x=$(keepassxc-cli generate -L 999 -e -c ѮѰѠѪѦѬѨ)
-    TABLE[$i]="$x"
+    TABLE[$i]="$x "
     # chiffre le fichier
     aescrypt -e -p $x $CHEMIN_FICHIER
     # supprime tout les anciens fichiers chiffré sauf le dernier.
