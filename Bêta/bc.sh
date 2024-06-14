@@ -1,12 +1,6 @@
 #!/bin/sh
-PATH=/usr/bin:/bin:/usr/sbin:/sbin:/dev:/Applications/KeePassXC.app/contents/macos
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/dev:/Applications/KeePassXC.app/contents/macos:~/desktop/AES_Automation
 # un mdp ≈ 13 000 bit d'entropie
-
-#######################
-# Variable à modifier #
-#######################
-
-export PATH=$PATH:~/desktop/AES_Automation
 
 ########
 # code #
