@@ -4,14 +4,26 @@ AES_automation permet de chiffrer et déchiffrer n fois un fichier en AES-256 de
 ## Installation
 
 Installez [Aescrypt](https://www.aescrypt.com/download/) en mode console pour votre machine. 
-
-Ajoutez le chemin du binaire aescrypt au path.
-```bash
-export PATH="$PATH:chemin"
+Installez Keepassxc avec votre gestionnaire de paquet préféré.
+```zsh
+brew install keepassxc
 ```
-Enfin copiez les fichiers bc.sh et bcr.sh au même endroit et rendez-les éxécutables.
+Créer un fichier sur votre bureau appelé AES_Automation.
+```zsh
+mkdir ~/desktop/AES_Automation
+```
+Copiez aescrypt (console-M1/M2) dans le dossier, commande sous cette forme :
+(à modifier si vous n'avez pas télécharger la même version)
 ```bash
-chmod +x bc.sh ; chmod +x bcr.sh
+cp ~/Downloads/aescrypt_mac_v316_m1m2/usr/local/bin/aescrypt ~/desktop/AES_Automation 
+```
+Copiez les fichiers bc.sh et bcr.sh (dossier Bêta) au même endroit et rendez-les éxécutables.
+```bash
+chmod +x  ~/desktop/AES_Automation/bc.sh ; chmod +x  ~/desktop/AES_Automation/bcr.sh
+```
+Enfin exportez le chemin du dossier dans le PATH pour pouvoir les éxécuter.
+```
+export PATH=$PATH:~/desktop/AES_Automation
 ```
 ### Optimisations
 Ajoutez deux alias dans ~/.aliasrc
@@ -21,14 +33,16 @@ alias bcr="bcr.sh"
 ```
 
 ## Usage
-Lancer le chiffrement d'un fichier
+Lancer le chiffrement d'un fichier :
 ```bash
-bc
+. bc.sh
 ```
-Lancer le déchiffrement d'un fichier
+Lancer le déchiffrement d'un fichier :
 ```
-bcr
+bcr.sh
 ```
 ## Coming Soon
 
-Automatisation complète du processus de chiffrement/déchiffrement
+Résolution "Error: Message has been altered or password is incorrect"
+Pour le déchiffrement l'erreur peut venir de l'adresse HMAC qu'aescrypt fourni automatiquement pendant le chiffrement. Le mot de passe est le bon (vérifié à la main). Cependant même en faisant des tests en modifiant le code source d'aescrypt, soit le message d'erreur perssiste soit le fichier n'est pas déchiffré (fichier vide). 
+Si vous avez une idée pour la résoudre contactez moi.
