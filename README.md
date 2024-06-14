@@ -2,6 +2,7 @@
 AES_automation permet de chiffrer et déchiffrer n fois un fichier en AES-256 de manière simple et intéractive en local.
 
 ## Installation
+(Mac)
 
 Installez [Aescrypt](https://www.aescrypt.com/download/) en mode console pour votre machine. 
 
