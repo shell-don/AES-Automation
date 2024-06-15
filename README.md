@@ -30,8 +30,15 @@ export PATH=$PATH:~/desktop/AES_Automation
 Supprimer les fichiers télécharger, AES_Automation possède le nécessaire.
 ### Optimisations
 (optionnel)
+Ajoutez cette fonction dans ~/.zshrc ou ~./.bashrc pour retrouver les alias à chaque lancement du terminal.
+```bash
+if [[ -r ~/.aliasrc ]]
+  then
+  . ~/.aliasrc
+fi
+```
 
-Ajoutez deux alias dans ~/.aliasrc
+Ajoutez deux alias dans ~/.aliasrc (dédié aux alias)
 ```zsh
 alias bc="bc.sh"
 alias bcr="bcr.sh"
