@@ -1,5 +1,5 @@
 # AES Automation
-AES_automation permet de chiffrer et déchiffrer (Comming Soon) n fois un fichier en AES-256 de manière simple et intéractive en local. Codé en BASH.
+Permet de chiffrer et déchiffrer (Comming Soon) n fois un fichier en AES-256 de manière simple et intéractive en local. Codé en BASH.
 
 ## Installation
 (Mac)
